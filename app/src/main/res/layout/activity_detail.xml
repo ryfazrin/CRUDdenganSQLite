@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:hint="Nama"
+        android:textColor="@color/design_default_color_primary"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/kampus"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:hint="Nama Kampus"
+        android:textColor="@color/design_default_color_primary"
+        android:textStyle="bold"
+        android:layout_marginTop="23dp"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/buttton_navigation_menu" />
+</LinearLayout>
